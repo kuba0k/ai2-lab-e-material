@@ -8,11 +8,18 @@
       "archived": false
     },
     {
-      "title": "New task",
-      "deadline": "2024-01-01",
-      "completed": false,
-      "archived": false,
-      "id": 4
+      "id": 2,
+      "title": "Hello Again World",
+      "deadline": "2000-01-01",
+      "completed": true,
+      "archived": false
+    },
+    {
+      "title": "Archived task",
+      "deadline": "2023-12-05",
+      "completed": true,
+      "archived": true,
+      "id": 3
     }
   ]
 }

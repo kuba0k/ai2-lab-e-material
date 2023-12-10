@@ -1,28 +1,20 @@
-body {
-  background: url("https://placehold.co/100x100/FFFFFF/EFEFEF/png?text=49428");
+:root {
+  --primary-color: #3F51B5;
+  --secondary-color: #FF4081;
+  --accent-color: #455a64;
+  --shadow-color: #c5cae9;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-h1 {
-  margin: 0;
-}
-
-.router-outlet {
-  padding: 20px;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
+button.primary {
   padding: 10px;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  border: solid 1px var(--primary-color);
+  background: var(--primary-color);
+  color: white;
+  border-radius: 8px;
 }
+* {
+  box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
